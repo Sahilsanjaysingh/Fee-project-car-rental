@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Chat Window</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <button class="open-button" onclick="openChat()">Chat</button>
+
+    <div class="chat-popup" id="chatPopup">
+        <div class="chat-header">
+            <span>Chat Window</span>
+            <span onclick="closeChat()">&times;</span>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <p>Hey, how may I help you?</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</body>
+</html> 
