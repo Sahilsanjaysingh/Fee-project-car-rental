@@ -1,133 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetroRide</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="mr.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="MetroRide.css" />
+    <title>Metro Ride</title>
 
-</head>
-<body>
-
-<header>
-    <h1>MetroRide</h1>
+    <title>Metro Ride</title>
+  </head>
+  <body>
     <nav>
-        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/mr.html#">Home</a>
-        <a href="#">Cars</a>
-        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/contact.html">Carbook</a>
-        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/login.html">Login</a>
+      <!-- <a href="index.html" class="brand"> -->
+      <!-- <a href="mr.html" class="brand"> -->
+        <h1>Metro <b class="accent">Ride</b></h1>
+      </a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+          <a href="../mr.html">Home</a>
+          <a href="../collection.html">Cars</a>
+          <a href="../contact.html">Carbook</a>
+          <a href="../login.html">Login</a>
+ 
+      </div>
+      <button class="btn-2" onclick="window.location.href='contact.html'">
+        Get Started
+      </button>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
     </nav>
-    <button class="btn">Get Started</button>
-</header>
 
-<section class="hero">
-    <div class="hero-content">
-        <h2>Easy And Fast Way To Rent A Car with MetroRide.</h2>
-        <p>We offer a wide range of rental cars to suit your needs. Whether you're arranging a weekend travel or a business trip.</p>
-        <button class="btn">Get Started</button>
-    </div>
-    <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Car" style="max-width: 400px;">
-</section>
+    <!--------------------------------------- Collection page---------------------------------------------- -->
+    <section class="collection" id="collection-page">
+      <!-- Sedans -->
+      <div class="collection-category">
+        <h1>Sedans</h1>
+        <hr />
+        <div class="collection-container">
+          <!-- Car #1 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="https://images.unsplash.com/photo-1523983388277-336a66bf9bcd?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" id="collection-page-img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h5>$60.00</h5>
+                  <h6>/Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Los Angeles</h6>
+                </div>
+              </div>
+              <h2>BMW 428i - F32</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
 
-<section class="features">
-    <div class="feature-card">
-        <img src="https://media.istockphoto.com/id/1354070884/photo/man-inserts-a-power-cord-into-an-electric-car-for-charging-in-the-nature.jpg?b=1&s=612x612&w=0&k=20&c=QdXxn0TakRDOijM3mZiAjH0XlkrOWFiSIZl8PRBVg0U=" alt="">
-        <h3>Efficiency</h3>
-        <p>MetroRide stands out for its streamlined rental process, ensuring customers can quickly and easily book their desired vehicles.</p>
+          <!-- Car #2 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="https://images.unsplash.com/photo-1520050206274-a1ae44613e6d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEF1ZGklMjBBOHxlbnwwfHwwfHx8MA%3D%3D" alt="img" id="collection-page-img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h5>$50.00</h5>
+                  <h6>/Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Los Angeles</h6>
+                </div>
+              </div>
+              <h2>Audi A8</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Car #3 -->
+          <div class="collection-car-item" id="collection-car-item-page">
+            <img src="https://th.bing.com/th/id/OIP.B11EreyFZSrVautNIEjC4wHaE8?w=286&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="img" id="collection-page-img" />
+            <div class="car-info-container">
+              <div class="car-info">
+                <div class="car-price">
+                  <h5>$60.00</h5>
+                  <h6>/Day</h6>
+                </div>
+                <div class="car-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h6>Los Angeles</h6>
+                </div>
+              </div>
+              <h2>BMW 428i - F32</h2>
+              <button
+                class="btn-2 btn-car btn-collection-page"
+                onclick="window.location.href='contact.html'"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+ <!-- Sports Car -->
+ <div class="collection-category">
+    <h1>Sports Car</h1>
+    <hr />
+    <div class="collection-container">
+      <!-- Car #1 -->
+      <div class="collection-car-item" id="collection-car-item-page">
+        <img src="https://media.istockphoto.com/id/1257503890/photo/car-driving-on-a-road.jpg?s=612x612&w=is&k=20&c=KM3lzXKpK2VIHloT12kL3uS5xoatOZxCW_ATZlOPTYA=" alt="img" id="collection-page-img" height="352px" />
+        <div class="car-info-container">
+          <div class="car-info">
+            <div class="car-price">
+              <h5>$80.00</h5>
+              <h6>/Day</h6>
+            </div>
+            <div class="car-location">
+              <i class="fa-solid fa-location-dot"></i>
+              <h6>California</h6>
+            </div>
+          </div>
+          <h2>Mercedes-AMW GT R</h2>
+          <button
+            class="btn-2 btn-car btn-collection-page"
+            onclick="window.location.href='contact.html'"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Car #2 -->
+      <div class="collection-car-item" id="collection-car-item-page">
+        <img src="https://media.istockphoto.com/id/1184141320/photo/lamborghini-sports-car.jpg?s=612x612&w=0&k=20&c=ho407M35Hei1Y5pVogG4gJSwOdtm0sdgi6-bvHrKgrk=" alt="img" id="collection-page-img" />
+        <div class="car-info-container">
+          <div class="car-info">
+            <div class="car-price">
+              <h5>$100.00</h5>
+              <h6>/Day</h6>
+            </div>
+            <div class="car-location">
+              <i class="fa-solid fa-location-dot"></i>
+              <h6>New Jersey</h6>
+            </div>
+          </div>
+          <h2>Lemborghini Venemo</h2>
+          <button
+            class="btn-2 btn-car btn-collection-page"
+            onclick="window.location.href='contact.html'"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Car #3 -->
+      <div class="collection-car-item" id="collection-car-item-page">
+        <img src="https://media.istockphoto.com/id/534047332/photo/old-car-ford-mustang-shelby-gt350-on-the-road.jpg?s=612x612&w=0&k=20&c=Xxuq_XxbCw2_Vmj8HTS0rq1mTjOBv_1k7BaJhd65p6g=" alt="img" id="collection-page-img" />
+        <div class="car-info-container">
+          <div class="car-info">
+            <div class="car-price">
+              <h5>$100.00</h5>
+              <h6>/Day</h6>
+            </div>
+            <div class="car-location">
+              <i class="fa-solid fa-location-dot"></i>
+              <h6>Los Angeles</h6>
+            </div>
+          </div>
+          <h2>Shelby Mustang</h2>
+          <button
+            class="btn-2 btn-car btn-collection-page"
+            onclick="window.location.href='contact.html'"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="feature-card">
-        <img src="https://media.istockphoto.com/id/1473399492/photo/salesman-talking-to-a-client-interested-in-buying-a-car-at-the-dealership.jpg?s=1024x1024&w=is&k=20&c=BxBp7IlyUFuiC8Lk9hdi9XBORGqsz-3atkNZYmUzBpg=" alt="">
-        <h3>Diverse Fleet</h3>
-        <p>MetroRide boasts a diverse fleet of well-maintained vehicles, catering to the varied needs and preferences of its customers.</p>
+  </div>
+
+
+
+
+
+
+
+ <!-- SUVs -->
+ <div class="collection-category">
+  <h1>SUVs</h1>
+  <hr />
+  <div class="collection-container">
+    <!-- Car #1 -->
+    <div class="collection-car-item" id="collection-car-item-page">
+      <img src="https://media.istockphoto.com/id/458230619/photo/range-rover-evoque-2012-front-view.jpg?s=612x612&w=0&k=20&c=SASTohYSMVzVj33DDUpL5FnMwamFiqMhXILmb380iI4=" alt="img" id="collection-page-img" />
+      <div class="car-info-container">
+        <div class="car-info">
+          <div class="car-price">
+            <h5>$50.00</h5>
+            <h6>/Day</h6>
+          </div>
+          <div class="car-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>California</h6>
+          </div>
+        </div>
+        <h2>Land Range Rover</h2>
+        <button
+          class="btn-2 btn-car btn-collection-page"
+          onclick="window.location.href='contact.html'"
+        >
+          Book Now
+        </button>
+      </div>
     </div>
-    <div class="feature-card">
-        <img src="https://images.pexels.com/photos/4606343/pexels-photo-4606343.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-        <h3>Exceptional Service</h3>
-        <p>Beyond just providing vehicles, MetroRide is committed to delivering exceptional customer service at every touchpoint.</p>
+
+    <!-- Car #2 -->
+    <div class="collection-car-item" id="collection-car-item-page">
+      <img src="https://media.istockphoto.com/id/1184360237/photo/lamborghini-urus.jpg?s=612x612&w=0&k=20&c=hQR9S1aPzCozM2RZcqVHtQ9EgFIPo5xezSHbGtuDd8o=" alt="img" id="collection-page-img" />
+      <div class="car-info-container">
+        <div class="car-info">
+          <div class="car-price">
+            <h5>$70.00</h5>
+            <h6>/Day</h6>
+          </div>
+          <div class="car-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>New Jersey</h6>
+          </div>
+        </div>
+        <h2>Lemborghini Urus</h2>
+        <button
+          class="btn-2 btn-car btn-collection-page"
+          onclick="window.location.href='contact.html'"
+        >
+          Book Now
+        </button>
+      </div>
     </div>
-</section>
-<div class="testimonials">
-    <h2>Our Car Collections ✨</h2>
+
+    <!-- Car #3 -->
+    <div class="collection-car-item" id="collection-car-item-page">
+      <img src="https://media.istockphoto.com/id/894961460/photo/mercedes-benz-gle-43-4matic-coupe.jpg?s=612x612&w=0&k=20&c=qH4CsWtCBwHXChjwhV6jESIaALQW2sYI-m6HZbKmagk=" alt="img" id="collection-page-img" />
+      <div class="car-info-container">
+        <div class="car-info">
+          <div class="car-price">
+            <h5>$100.00</h5>
+            <h6>/Day</h6>
+          </div>
+          <div class="car-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>Los Angeles</h6>
+          </div>
+        </div>
+        <h2>Mercedes Benz GLE</h2>
+        <button
+          class="btn-2 btn-car btn-collection-page"
+          onclick="window.location.href='contact.html'"
+        >
+          Book Now
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
-<section class="cars">
-    <div class="car-card">
-        <img src="https://images.pexels.com/photos/8737951/pexels-photo-8737951.png?auto=compress&cs=tinysrgb&w=600" alt="Lexus IS">
+
+
+
+
+
+
+
+ <!-- Coupes -->
+ <div class="collection-category">
+  <h1>Coupes</h1>
+  <hr />
+  <div class="collection-container">
+    <!-- Car #1 -->
+    <div class="collection-car-item" id="collection-car-item-page">
+      <img src="https://media.istockphoto.com/id/1415491459/photo/portrait-of-a-rolls-royce-cullinan-wide-body-suv-by-mansory.jpg?s=612x612&w=0&k=20&c=gk2qA_3lqBhtQux6f1ln9IHy05S8DohcLOX67gfdFAE=" alt="img" id="collection-page-img" />
+      <div class="car-info-container">
         <div class="car-info">
-            <h3>2018 Lexus IS</h3>
-            <p>$40.00/Day</p>
-            <button class="btn-book">Book Now</button>
+          <div class="car-price">
+            <h5>$60.00</h5>
+            <h6>/Day</h6>
+          </div>
+          <div class="car-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>California</h6>
+          </div>
         </div>
+        <h2>Rolls Royce Dawn</h2>
+        <button
+          class="btn-2 btn-car btn-collection-page"
+          onclick="window.location.href='contact.html'"
+        >
+          Book Now
+        </button>
+      </div>
     </div>
-    <div class="car-card">
-        <img src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rolls Royce Dawn">
+
+    <!-- Car #2 -->
+    <div class="collection-car-item" id="collection-car-item-page">
+      <img src="https://media.istockphoto.com/id/1452319018/photo/yellow-toyota-mr2-cabriolet.jpg?s=612x612&w=0&k=20&c=fnvW7pizO0ilWBLxknUwlSpzKGqSw5wWafYvssCfXa8=" alt="img" id="collection-page-img" />
+      <div class="car-info-container">
         <div class="car-info">
-            <h3>Rolls Royce Dawn</h3>
-            <p>$100.00/Day</p>
-            <button class="btn-book">Book Now</button>
+          <div class="car-price">
+            <h5>$70.00</h5>
+            <h6>/Day</h6>
+          </div>
+          <div class="car-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>New Jersey</h6>
+          </div>
         </div>
+        <h2>Toyota 86-Coupe</h2>
+        <button
+          class="btn-2 btn-car btn-collection-page"
+          onclick="window.location.href='contact.html'"
+        >
+          Book Now
+        </button>
+      </div>
     </div>
-    <div class="car-card">
-        <img src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=600">
+
+    <!-- Car #3 -->
+    <div class="collection-car-item" id="collection-car-item-page">
+      <img src="https://media.istockphoto.com/id/2035855111/photo/audi-a5.jpg?s=612x612&w=0&k=20&c=D_QKX0jV1TAWmeQB7SAZrNWmc60Ohp1ykWGZNAVHHMs=" alt="img" id="collection-page-img"height="352px" />
+      <div class="car-info-container">
         <div class="car-info">
-            <h3>Lamborghini Venemo</h3>
-            <p>$100.00/Day</p>
-            <button class="btn-book">Book Now</button>
+          <div class="car-price">
+            <h5>$100.00</h5>
+            <h6>/Day</h6>
+          </div>
+          <div class="car-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>Los Angeles</h6>
+          </div>
         </div>
+        <h2>Audi A-5</h2>
+        <button
+          class="btn-2 btn-car btn-collection-page"
+          onclick="window.location.href='contact.html'"
+        >
+          Book Now
+        </button>
+      </div>
     </div>
-    <div class="car-card">
-        <img src="https://images.pexels.com/photos/6894435/pexels-photo-6894435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-        <div class="car-info">
-            <h3>Toyota 86- Coupe</h3>
-            <p>$100.00/Day</p>
-            <button class="btn-book">Book Now</button>
-        </div>
-    </div>
-    <div class="car-card">
-        <img src="https://images.pexels.com/photos/10054994/pexels-photo-10054994.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-        <div class="car-info">
-            <h3>Bmw 428i F32</h3>
-            <p>$60.00/Day</p>
-            <button class="btn-book">Book Now</button>
-        </div>
-    </div>
-    <div class="car-card">
-        <img src="https://images.pexels.com/photos/20792557/pexels-photo-20792557/free-photo-of-photo-of-a-blue-mercedes-amg-gt-r.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-        <div class="car-info">
-            <h3>Mercedes-AMG GT R</h3>
-            <p>$100.00/Day</p>
-            <button class="btn-book">Book Now</button>
-        </div>
-    </div>
-</section>
-<button class="btn-see">See All Cars</button>
-<br>
-<div class="testimonials">
-    <h2>Hear what our clients say ✨</h2>
-    <br>
-    <div class="testimonial">
-        <p>Renting with <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> was an absolute breeze! From booking online to picking up the car, everything was smooth and efficient.</p>
-        <div class="client">Sarah H.</div>
-    </div>
-    <div class="testimonial">
-        <p>I can't recommend <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> enough! Their diverse fleet allowed me to choose the perfect car for my weekend getaway.</p>
-        <div class="client">Michael T.</div>
-    </div>
-    <div class="testimonial">
-        <p><span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> exceeded all my expectations! Their flexibility with drop-off and pickup made my travel experience stress-free.</p>
-        <div class="client">William A.</div>
-    </div>
+  </div>
 </div>
-<div class="cta">
-    <br><br>
-    <h1>MetroRide</h1>
-    <br><br>
-    <h1>Let’s drive with MetroRide Today!</h1>
-    <p>Need assistance or ready to reserve your wheels? Contact us now for prompt service and effortless booking!</p>
-    <div class="buttons">
-        <button class="button">Check Our Cars →</button>
-        <button class="button">Book Now 📞</button>
-    </div>
-</div> <br><br>
-</body>
+
+
+
+    </section>
+    <!-- ----------------------------------------------------------------------------------->
+
+    <!-- Footer Section -->
+    <footer class="collection-footer">
+      <div class="callout">
+        <h2>Let's drive with MetroRide today!</h2>
+        <p class="callout-discription">
+          Need assistance or ready to reserve your wheels? contact us for prompt
+          services and effortless booking!
+        </p>
+        <div class="callout-button">
+          <button
+            class="btn-2 btn-callout"
+            onclick="window.location.href='collection.html'"
+          >
+            <p>Check our Car</p>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+          <button
+            class="btn-2 btn-callout btn-callout-black"
+            onclick="window.location.href='contact.html'"
+          >
+            <p>Book Now</p>
+            <i class="fa-solid fa-phone"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-button">
+        <a href="/" class="footer-brand">Metro <b class="accent">Ride</b></a>
+        <div class="socials">
+          <a href="/" class="socials-item">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="/" class="socials-item">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="/" class="socials-item">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a href="/" class="socials-item">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- ----------------------------------------------------------------------->
+  </body>
 </html>
