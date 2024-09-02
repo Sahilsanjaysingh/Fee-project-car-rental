@@ -1,0 +1,57 @@
+
+
+<--HTML part of review section-->
+<div class="testimonials">
+    <h2>Hear what our clients say ✨</h2>
+    <br>
+
+    <div class="testimonial">
+        <p>Renting with <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> was an absolute breeze! From booking online to picking up the car, everything was smooth and efficient.</p>
+        <div class="client">Sarah H.</div>
+    </div>
+    <div class="testimonial">
+        <p>I can't recommend <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> enough! Their diverse fleet allowed me to choose the perfect car for my weekend getaway.</p>
+        <div class="client">Michael T.</div>
+    </div>
+    <div class="testimonial">
+        <p><span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> exceeded all my expectations! Their flexibility with drop-off and pickup made my travel experience stress-free.</p>
+        <div class="client">William A.</div>
+    </div>
+
+</div>
+
+
+<--CSS part of review section-->
+.testimonials {
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        .testimonials h2{
+            text-align: center;
+        }
+        .testimonial {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .testimonial {
+            transition: transform 0.5s ease-in-out ;
+            transition-delay: 0.05s;
+          }
+          
+          .testimonial:hover {
+            transform:translateY(10px) ;
+        }
+        .testimonial h3 {
+            margin: 0;
+        }
+        .testimonial p {
+            font-style: italic;
+        }
+        .client {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+       
