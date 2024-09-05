@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroRide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mr.css" />
+
+</head>
+<body>
+
+<header>
+    <h1>MetroRide</h1>
+    <nav>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/mr.html#">Home</a>
+        <a href="#">Cars</a>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/contact.html">Carbook</a>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/login.html">Login</a>
+    </nav>
+    <button class="btn">Get Started</button>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Easy And Fast Way To Rent A Car with MetroRide.</h2>
+        <p>We offer a wide range of rental cars to suit your needs. Whether you're arranging a weekend travel or a business trip.</p>
+        <button class="btn">Get Started</button>
+    </div>
+    <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Car" style="max-width: 400px;">
+</section>
+
+<section class="features">
+    <div class="feature-card">
+        <img src="https://media.istockphoto.com/id/1354070884/photo/man-inserts-a-power-cord-into-an-electric-car-for-charging-in-the-nature.jpg?b=1&s=612x612&w=0&k=20&c=QdXxn0TakRDOijM3mZiAjH0XlkrOWFiSIZl8PRBVg0U=" alt="">
+        <h3>Efficiency</h3>
+        <p>MetroRide stands out for its streamlined rental process, ensuring customers can quickly and easily book their desired vehicles.</p>
+    </div>
+    <div class="feature-card">
+        <img src="https://media.istockphoto.com/id/1473399492/photo/salesman-talking-to-a-client-interested-in-buying-a-car-at-the-dealership.jpg?s=1024x1024&w=is&k=20&c=BxBp7IlyUFuiC8Lk9hdi9XBORGqsz-3atkNZYmUzBpg=" alt="">
+        <h3>Diverse Fleet</h3>
+        <p>MetroRide boasts a diverse fleet of well-maintained vehicles, catering to the varied needs and preferences of its customers.</p>
+    </div>
+    <div class="feature-card">
+        <img src="https://images.pexels.com/photos/4606343/pexels-photo-4606343.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <h3>Exceptional Service</h3>
+        <p>Beyond just providing vehicles, MetroRide is committed to delivering exceptional customer service at every touchpoint.</p>
+    </div>
+</section>
+<div class="testimonials">
+    <h2>Our Car Collections ✨</h2>
+</div>
+<section class="cars">
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/8737951/pexels-photo-8737951.png?auto=compress&cs=tinysrgb&w=600" alt="Lexus IS">
+        <div class="car-info">
+            <h3>2018 Lexus IS</h3>
+            <p>$40.00/Day</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rolls Royce Dawn">
+        <div class="car-info">
+            <h3>Rolls Royce Dawn</h3>
+            <p>$100.00/Day</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <div class="car-info">
+            <h3>Lamborghini Venemo</h3>
+            <p>$100.00/Day</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/6894435/pexels-photo-6894435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <div class="car-info">
+            <h3>Toyota 86- Coupe</h3>
+            <p>$100.00/Day</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/10054994/pexels-photo-10054994.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <div class="car-info">
+            <h3>Bmw 428i F32</h3>
+            <p>$60.00/Day</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/20792557/pexels-photo-20792557/free-photo-of-photo-of-a-blue-mercedes-amg-gt-r.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <div class="car-info">
+            <h3>Mercedes-AMG GT R</h3>
+            <p>$100.00/Day</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+    </div>
+</section>
+<button class="btn-see">See All Cars</button>
+<br>
+<div class="testimonials">
+    <h2>Hear what our clients say ✨</h2>
+    <br>
+    <div class="testimonial">
+        <p>Renting with <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> was an absolute breeze! From booking online to picking up the car, everything was smooth and efficient.</p>
+        <div class="client">Sarah H.</div>
+    </div>
+    <div class="testimonial">
+        <p>I can't recommend <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> enough! Their diverse fleet allowed me to choose the perfect car for my weekend getaway.</p>
+        <div class="client">Michael T.</div>
+    </div>
+    <div class="testimonial">
+        <p><span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> exceeded all my expectations! Their flexibility with drop-off and pickup made my travel experience stress-free.</p>
+        <div class="client">William A.</div>
+    </div>
+</div>
+<div class="cta">
+    <br><br>
+    <h1>MetroRide</h1>
+    <br><br>
+    <h1>Let’s drive with MetroRide Today!</h1>
+    <p>Need assistance or ready to reserve your wheels? Contact us now for prompt service and effortless booking!</p>
+    <div class="buttons">
+        <button class="button">Check Our Cars →</button>
+        <button class="button">Book Now 📞</button>
+    </div>
+</div> <br><br>
+</body>
+</html>
