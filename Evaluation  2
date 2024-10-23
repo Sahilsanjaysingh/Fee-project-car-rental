@@ -1,1 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroRide</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="mr.css" />
+    
+
+</head>
+<body>
+
+<header>
+    <h1>MetroRide</h1>
+    <nav>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/mr.html#">Home</a>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/carpage.html">Cars</a>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html">Carbook</a>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/login.html">Sing In</a>
+        <a href="file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/SIGN%20UP.html">Sing Up</a>
+    </nav>
+    <button class="btn">Get Started</button>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Easy And Fast Way To Rent A Car with MetroRide.</h2>
+        <p>We offer a wide range of rental cars to suit your needs. Whether you're arranging a weekend travel or a business trip.</p>
+        <button class="btn">Get Started</button>
+    </div>
+    <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Car" style="max-width: 400px;">
+</section>
+
+<section class="features">
+    <div class="feature-card">
+        <img src="https://media.istockphoto.com/id/1354070884/photo/man-inserts-a-power-cord-into-an-electric-car-for-charging-in-the-nature.jpg?b=1&s=612x612&w=0&k=20&c=QdXxn0TakRDOijM3mZiAjH0XlkrOWFiSIZl8PRBVg0U=" alt="">
+        <h3>Efficiency</h3>
+        <p>MetroRide stands out for its streamlined rental process, ensuring customers can quickly and easily book their desired vehicles.</p>
+    </div>
+    <div class="feature-card">
+        <img src="https://media.istockphoto.com/id/1473399492/photo/salesman-talking-to-a-client-interested-in-buying-a-car-at-the-dealership.jpg?s=1024x1024&w=is&k=20&c=BxBp7IlyUFuiC8Lk9hdi9XBORGqsz-3atkNZYmUzBpg=" alt="">
+        <h3>Diverse Fleet</h3>
+        <p>MetroRide boasts a diverse fleet of well-maintained vehicles, catering to the varied needs and preferences of its customers.</p>
+    </div>
+    <div class="feature-card">
+        <img src="https://images.pexels.com/photos/4606343/pexels-photo-4606343.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <h3>Exceptional Service</h3>
+        <p>Beyond just providing vehicles, MetroRide is committed to delivering exceptional customer service at every touchpoint.</p>
+    </div>
+</section>
+<div class="testimonials">
+    <h2>Our Car Collections ✨</h2>
+</div>
+<section class="cars">
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/8737951/pexels-photo-8737951.png?auto=compress&cs=tinysrgb&w=600" alt="Lexus IS">
+        <div class="car-info">
+            <h3>2018 Lexus IS</h3>
+            <p>$40.00/Day</p>
+            <button class ="btn-book"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html';">Book Now</button>
+            <!--<button class="btn-book">Book Now</button>-->
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rolls Royce Dawn">
+        <div class="car-info">
+            <h3>Rolls Royce Dawn</h3>
+            <p>$100.00/Day</p>
+            <button class ="btn-book"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html';">Book Now</button>
+            <!--<button class="btn-book">Book Now</button>-->
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <div class="car-info">
+            <h3>Lamborghini Venemo</h3>
+            <p>$100.00/Day</p>
+            <button class ="btn-book"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html';">Book Now</button>
+            <!--<button class="btn-book">Book Now</button>-->
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/6894435/pexels-photo-6894435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <div class="car-info">
+            <h3>Toyota 86- Coupe</h3>
+            <p>$100.00/Day</p>
+            <button class ="btn-book"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html';">Book Now</button>
+            <!--<button class="btn-book">Book Now</button>-->
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/10054994/pexels-photo-10054994.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <div class="car-info">
+            <h3>Bmw 428i F32</h3>
+            <p>$60.00/Day</p>
+            <button class ="btn-book"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html';">Book Now</button>
+           <!-- <button class="btn-book">Book Now</button>-->
+        </div>
+    </div>
+    <div class="car-card">
+        <img src="https://images.pexels.com/photos/20792557/pexels-photo-20792557/free-photo-of-photo-of-a-blue-mercedes-amg-gt-r.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        <div class="car-info">
+            <h3>Mercedes-AMG GT R</h3>
+            <p>$100.00/Day</p>
+            <button class ="btn-book"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/registration%20form%20.html';">Book Now</button>
+            <!--<button class="btn-book">Book Now</button>-->
+            
+        </div>
+    </div>
+</section>
+<button class ="btn-see "onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/carpage.html';">See All Cars</button>
+
+<!--<button class="btn-see">See All Cars</button>-->
+<br>
+<div class="testimonials">
+    <h2>Hear what our clients say ✨</h2>
+    <br>
+    <div class="testimonial">
+        <p>Renting with <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> was an absolute breeze! From booking online to picking up the car, everything was smooth and efficient.</p>
+        <div class="client">Sarah H.</div>
+    </div>
+    <div class="testimonial">
+        <p>I can't recommend <span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> enough! Their diverse fleet allowed me to choose the perfect car for my weekend getaway.</p>
+        <div class="client">Michael T.</div>
+    </div>
+    <div class="testimonial">
+        <p><span style="color: #6A0DAD; font-weight: bold;">MetroRide</span> exceeded all my expectations! Their flexibility with drop-off and pickup made my travel experience stress-free.</p>
+        <div class="client">William A.</div>
+    </div>
+</div>
+<div class="cta">
+    <br><br>
+    <h1>MetroRide</h1>
+    <br><br>
+    <h1>Let’s drive with MetroRide Today!</h1>
+    <p>Need assistance or ready to reserve your wheels? Contact us now for prompt service and effortless booking!</p>
+    <div class="buttons">
+        <button class ="button"onclick="window.location.href='file:///C:/Users/LENOVO/OneDrive/Desktop/metro%20ride/carpage.html';">Check Our Cars →</button>
+        <!--<button class="button">Check Our Cars →</button>-->
+        <button class="button">Book Now 📞</button>
+    </div>
+</div> <br><br>
+
+<!-- bot code -->
+
+
+
+<button class="open-button" onclick="openChat()">Chat</button>
+
+<div class="chat-popup" id="chatPopup">
+    <div class="chat-header">
+        <span>Chat Window</span>
+        <span onclick="closeChat()">&times;</span>
+    </div>
+    <div class="chat-body" id="chatBody">
+        <p>Hey, how may I help you?</p>
+    </div>
+    <div class="chat-footer">
+        <input type="text" id="chatInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="clearChat()">Clear Chat</button>
+    </div>
+</div>
+
+<script>
+    function openChat() {
+        document.getElementById("chatPopup").style.display = "block";
+    }
+
+    function closeChat() {
+        document.getElementById("chatPopup").style.display = "none";
+    }
+
+    function sendMessage() {
+        var inputField = document.getElementById("chatInput");
+        var message = inputField.value.trim();
+
+        if (message) {
+            var chatBody = document.getElementById("chatBody");
+
+            
+            var userMessage = document.createElement("p");
+            userMessage.textContent = message;
+            chatBody.appendChild(userMessage);
+
+            
+            inputField.value = "";
+
+            
+            setTimeout(function() {
+                var botMessage = document.createElement("p");
+                botMessage.className = "bot-message";
+                botMessage.textContent = generateBotResponse(message);
+                chatBody.appendChild(botMessage);
+
+                
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }, 1000); 
+        }
+    }
+    function generateBotResponse(userMessage) {
+        var responses = {
+            "hello": "Hi there! How can I assist you today?",
+            "how are you": "I'm just a bot, but I'm here to help!",
+            "bye": "Goodbye! Have a great day!",
+            "help": "Sure! What do you need help with?",
+            "default": "I'm sorry, I don't understand that. Can you please rephrase?"
+        };
+        userMessage = userMessage.toLowerCase();
+        return responses[userMessage] || responses["default"];
+    }
+
+    function clearChat() {
+        // Clear the chat body content
+        var chatBody = document.getElementById("chatBody");
+        chatBody.innerHTML = ""; // Remove all messages
+        var greetingMessage = document.createElement("p");
+        greetingMessage.className = "bot-message";
+        greetingMessage.textContent = "Chat has been cleared. How can I assist you today?";
+        chatBody.appendChild(greetingMessage);
+    }
+</script> 
+<style>
+   
+
+    .chat-popup {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        animation: slideUp 0.3s ease-out forwards;
+    }
+
+    @keyframes slideUp {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .chat-header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .chat-header span {
+        cursor: pointer;
+    }
+
+    .chat-body {
+        padding: 10px;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    .chat-footer {
+        display: flex;
+        padding: 10px;
+        border-top: 1px solid #ccc;
+    }
+
+    .chat-footer input {
+        flex: 1;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .chat-footer button {
+        padding: 8px;
+        margin-left: 5px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .open-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .bot-message {
+        background-color: #f1f1f1;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-style: italic;
+    }
+</style>
+</body>
+</html>
